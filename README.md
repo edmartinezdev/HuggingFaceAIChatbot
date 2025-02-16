@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 HuggingFace AI Chatbot - Your AI-Powered Chat Companion 🤖✨
 
-## Getting Started
+Welcome to **HuggingFace AI Chatbot**, a **real-time AI assistant** that can chat, give advice, and help answer your questions!  
+Built with **Next.js, ShadCN UI, and Hugging Face AI**, this chatbot is **fully responsive and optimized for mobile.** 📱
 
-First, run the development server:
+---
+
+## 🎯 Features
+
+✅ **AI-powered chat** - Ask anything and get **instant AI-generated responses**  
+✅ **Mobile-first design** - Fully responsive, **100% fullscreen on mobile**  
+✅ **Auto-scrolling chat** - New messages stay visible automatically  
+✅ **Retry logic** - **Waits for the AI model to load** and retries if needed  
+✅ **Fun "Thinking..." animation** 🤔 while AI generates responses
+
+---
+
+## 🔧 How It Works
+
+1. **Type a message** in the chatbox.
+2. **Press Enter** or click **Send** to chat with the AI.
+3. The AI **thinks for a moment** and **responds like a real-life assistant**.
+4. **Enjoy fast and engaging AI-powered conversations!** 🚀
+
+---
+
+## 🛠️ Tech Stack
+
+🛠 **Built with**:
+
+- **Next.js** (React framework)
+- **ShadCN UI** (Modern Tailwind-based UI)
+- **Hugging Face AI API** (Free conversational AI)
+- **TailwindCSS** (For sleek styling)
+
+---
+
+## 🚀 Getting Started
+
+### 📌 1. Clone the Repo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/edmartinezdev/HuggingFaceAIChatbot
+cd huggingface-ai-chatbot
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
